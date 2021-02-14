@@ -1,4 +1,6 @@
-org/example/Controller.java
- org.example.Controller
+org/example/AuthorizationController.java
+ org.example.AuthorizationController
 org/example/Main.java
  org.example.Main
+org/example/Controller.java
+ org.example.Controller
