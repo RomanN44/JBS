@@ -1,6 +1,8 @@
-org/example/AuthorizationController.java
- org.example.AuthorizationController
+org/example/controller/SignInController.java
+ org.example.controller.SignInController
 org/example/Main.java
  org.example.Main
-org/example/Controller.java
- org.example.Controller
+org/example/controller/HomeController.java
+ org.example.controller.HomeController
+org/example/controller/SignUpController.java
+ org.example.controller.SignUpController

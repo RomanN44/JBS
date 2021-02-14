@@ -13,7 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/authorizationWindow.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/signIn.fxml"));
         primaryStage.setTitle("JBS authorization window");
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);

@@ -1,8 +1,8 @@
 /**
- * Sample Skeleton for 'authorizationWindow.fxml' Controller Class
+ * Sample Skeleton for 'signIn.fxml' Controller Class
  */
 
-package org.example;
+package org.example.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -11,7 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-public class AuthorizationController {
+public class SignInController {
 
     @FXML // ResourceBundle that was given to the FXMLLoader
     private ResourceBundle resources;
@@ -33,11 +33,6 @@ public class AuthorizationController {
 
     @FXML // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
-        assert passwordField != null : "fx:id=\"passwordField\" was not injected: check your FXML file 'authorizationWindow.fxml'.";
-        assert signInButton != null : "fx:id=\"signInButton\" was not injected: check your FXML file 'authorizationWindow.fxml'.";
-        assert loginField != null : "fx:id=\"loginField\" was not injected: check your FXML file 'authorizationWindow.fxml'.";
-        assert signUpButton != null : "fx:id=\"signUpButton\" was not injected: check your FXML file 'authorizationWindow.fxml'.";
-
         signInButton.setOnAction(event -> {
             System.out.println("sign in");
         });

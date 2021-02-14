@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AuthorizationController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.SignInController">
    <children>
       <AnchorPane layoutY="66.0" prefHeight="340.0" prefWidth="600.0" style="-fx-background-color: #fafafa;">
          <children>
@@ -18,7 +17,7 @@
                   <Font name="Consolas" size="25.0" />
                </font>
             </Label>
-            <Button fx:id="signInButton" layoutX="251.0" layoutY="189.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" style="-fx-background-color: #cd4848; -fx-border-radius: 5;" text="Sign in" textFill="WHITE">
+            <Button fx:id="signInButton" layoutX="251.0" layoutY="189.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" style="-fx-background-color: #cd4848; -fx-border-radius: 5;" text="Sign In" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
@@ -31,7 +30,7 @@
             <Font name="Consolas" size="45.0" />
          </font>
       </Label>
-      <Button fx:id="signUpButton" layoutX="479.0" layoutY="17.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" style="-fx-background-color: #cd4848; -fx-border-radius: 5;" text="Sign up" textFill="WHITE">
+      <Button fx:id="signUpButton" layoutX="479.0" layoutY="17.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" style="-fx-background-color: #cd4848; -fx-border-radius: 5;" text="Sign Up" textFill="WHITE">
          <font>
             <Font size="15.0" />
          </font>
